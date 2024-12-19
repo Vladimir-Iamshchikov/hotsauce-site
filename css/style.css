@@ -690,7 +690,7 @@ h1 {
 
     /*person classes*/
     .person,
-    .person.person--moremore {
+    .person.person--more {
         width: 100%;
         text-align: center;
     }
