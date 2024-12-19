@@ -62,7 +62,8 @@
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 68rem;
+        font-size: 50rem;
+        line-height: 60rem;
     }
 
     .header__advertisement {
