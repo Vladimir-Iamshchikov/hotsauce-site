@@ -24,9 +24,11 @@
     .max-width-container {
         padding: 0px 24px;
     }
+
     .header__information-label {
         margin-top: 0rem;
     }
+
     .poster__image {
         width: 35%;
     }
@@ -84,6 +86,10 @@
         display: block;
     }
 
+    .gamburger-panel__advertisement {
+        display: flex;
+    }
+
     .header__information-label {
         width: 100%;
         max-width: 162px;
@@ -93,7 +99,7 @@
     }
 
     .section#speakers {
-        padding: 190rem 0rem;
+        padding: 260rem 0rem
     }
 
     .section__title h2 {
@@ -388,10 +394,6 @@
 
     .header__bar {
         margin-top: -100px;
-    }
-
-    .gamburger-panel__advertisement {
-        display: flex;
     }
 
     .call-to-action-bar {
