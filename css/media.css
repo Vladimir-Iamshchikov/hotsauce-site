@@ -1,0 +1,509 @@
+@media (max-width: 1440px) {
+    html {
+        font-size: 0.9px;
+    }
+
+    .header__information-text {
+        padding-right: 35rem;
+    }
+
+    .header__top-header {
+        padding: 40rem 24rem 0rem;
+    }
+
+    .poster__image {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 0.8px;
+    }
+
+    .max-width-container {
+        padding: 0px 24px;
+    }
+    .header__information-label {
+        margin-top: 0rem;
+    }
+    .poster__image {
+        width: 35%;
+    }
+
+    .reason__image {
+        width: 52%;
+    }
+
+    .section__logo-title {
+        gap: 35rem;
+    }
+
+    #updates .section__title p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 68rem;
+    }
+
+    .header__advertisement {
+        flex-direction: column;
+    }
+
+    .header__advertisement {
+        height: auto;
+    }
+
+    .header__advertisement p {
+        margin: 10rem 0 15rem;
+    }
+
+    .header__advertisement a {
+        width: 100%;
+        padding: 10rem;
+    }
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__gamburger {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20rem;
+    }
+
+    .header__gamburger-panel.header__gamburger-panel--show {
+        display: block;
+    }
+
+    .header__information-label {
+        width: 100%;
+        max-width: 162px;
+        margin-top: 0rem;
+        margin-bottom: 35rem;
+        order: 1;
+    }
+
+    .section#speakers {
+        padding: 190rem 0rem;
+    }
+
+    .section__title h2 {
+        font-size: 54rem;
+    }
+
+    .header__information-text {
+        padding-right: 0rem;
+    }
+
+    .header__information-title {
+        order: 2;
+    }
+
+    .header__information-text {
+        width: 100%;
+        max-width: 100%;
+        order: 3;
+    }
+
+    .header__bar {
+        margin-top: -50px;
+    }
+
+    .call-to-action-bar {
+        flex-direction: column;
+    }
+
+    .call-to-action-bar-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25rem;
+    }
+
+    .call-to-action-bar-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section__person {
+        width: 50%;
+    }
+
+    .section__person:nth-child(3n+2) {
+        margin-top: 0rem;
+    }
+
+    .section__person:nth-child(3n) {
+        margin-top: 0rem;
+    }
+
+    .section__person:nth-child(2n+2) {
+        margin-top: 75rem;
+    }
+
+    .section__person:nth-child(2n) {
+        margin-top: 150rem;
+    }
+
+    .section__logo-title {
+        flex-direction: column;
+    }
+
+    .section__logo-title-left {
+        width: 100%;
+    }
+
+    .section__logo-title-right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .section__logo-title-image {
+        width: 100%;
+    }
+
+    .section__logo-title-right img {
+        max-width: 200rem;
+    }
+
+    .section__ticket {
+        padding: 10rem 0rem;
+    }
+
+    .ticket {
+        flex-direction: column;
+    }
+
+    .ticket::before,
+    .ticket::after {
+        width: 100%;
+        height: 9rem;
+        background-repeat: repeat-x;
+        background-position: center center;
+    }
+
+    .ticket::before {
+        left: 0;
+        top: -9rem;
+        bottom: auto;
+        background-image: url("../img/ticket-top-border.svg");
+    }
+
+    .ticket::after {
+        right: 0;
+        bottom: -9rem;
+        top: auto;
+        background-image: url("../img/ticket-bottom-border.svg");
+    }
+
+    .ticket__cta {
+        width: 100%;
+        padding: 34rem 10rem;
+    }
+
+    .ticket__content {
+        flex-direction: column;
+        padding: 0rem 35rem;
+    }
+
+    .ticket__price,
+    .ticket__detils {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ticket__price {
+        border-right: none;
+        border-bottom: 1px solid rgb(234, 234, 234);
+    }
+
+    .ticket__price::before,
+    .ticket__price::after {
+        bottom: -5rem;
+    }
+
+    .ticket__price::before {
+        left: 0rem;
+        top: auto;
+    }
+
+    .ticket__price::after {
+        right: 0rem;
+    }
+
+    .ticket__detils {
+        padding: 75rem 0rem 60rem 0rem;
+    }
+
+    .poster {
+        flex-direction: column;
+    }
+
+    .poster__image {
+        width: 100%;
+    }
+
+    .poster__text h3 {
+        font-size: 48rem;
+        word-break: break-word;
+        hyphens: auto;
+        overflow-wrap: break-word;
+    }
+
+    .poster.poster--layout-invert .poster__image {
+        order: 1;
+    }
+
+    .section__reasons {
+        gap: 120rem;
+    }
+
+    .reason {
+        flex-direction: column;
+    }
+
+    .reason__image {
+        width: 100%;
+    }
+
+    .reason__icon {
+        height: 140rem;
+    }
+
+    .reason.reason--layout-invert .reason__image {
+        order: 2;
+    }
+
+    .section__insigts {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .section__insigt {
+        width: 100%;
+    }
+
+    .partners__big-logo,
+    .partners__small-logo {
+        width: 40%;
+        height: auto;
+    }
+
+    .become-partner-bar {
+        flex-direction: column;
+        gap: 25rem;
+    }
+
+    #updates {
+        padding-top: 300rem;
+    }
+
+    .become-partner-bar__text,
+    .become-partner-bar__button {
+        width: 100%;
+        text-align: center;
+    }
+
+    #updates .max-width-container::before {
+        display: none;
+    }
+
+    .form__fields {
+        flex-direction: column;
+    }
+
+    .form__field {
+        width: 100%;
+    }
+
+    .javits-center-contacts {
+        flex-direction: column;
+        gap: 25rem;
+    }
+
+    .javits-center-contacts__information {
+        width: 100%;
+    }
+
+    .footer__logo {
+        width: 100%;
+        margin-bottom: 25rem;
+    }
+
+    .footer__button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__information {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cookie-banner {
+        flex-direction: column;
+    }
+
+    .cookie-banner__information,
+    .cookie-banner__buttons {
+        width: 100%;
+    }
+
+    .cookie-banner__buttons {
+        flex-direction: column;
+    }
+
+    .footer__copyright {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__advertisement {
+        display: none;
+    }
+
+    h1 {
+        font-size: 42rem;
+        line-height: 42rem;
+    }
+
+    .header__information {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header__bar {
+        margin-top: -100px;
+    }
+
+    .gamburger-panel__advertisement {
+        display: flex;
+    }
+
+    .call-to-action-bar {
+        padding: 40rem;
+    }
+
+    .call-to-action-bar-title h3 {
+        font-size: 40rem;
+        line-height: 40rem;
+        word-break: break-word;
+        hyphens: auto;
+        overflow-wrap: break-word;
+    }
+
+    .section#speakers {
+        padding: 180rem 0rem;
+    }
+
+    .section {
+        padding: 100rem 0rem;
+    }
+
+    .section__title h2 {
+        font-size: 48rem;
+        line-height: 48rem;
+        max-width: 90%;
+        word-break: break-word;
+        hyphens: auto;
+        overflow-wrap: break-word;
+    }
+
+    .section__person {
+        width: 100%;
+    }
+
+    .section__person:nth-child(n) {
+        margin-top: 0rem;
+        margin-bottom: 60rem;
+    }
+
+    .section__person:last-child {
+        margin-bottom: 0rem;
+    }
+
+    .reason__text h3 {
+        font-size: 40rem;
+        line-height: 40rem;
+    }
+
+    .reason__text p {
+        font-size: 22rem;
+        line-height: 30rem;
+    }
+
+    .insigt__text p {
+        font-size: 22rem;
+        line-height: 30rem;
+    }
+
+    .section__insigts {
+        margin-bottom: -130rem;
+    }
+
+    .javits-center-contacts__contacts {
+        width: 100%;
+    }
+
+    .section__posters {
+        gap: 60rem;
+    }
+
+    .poster__text h3 {
+        font-size: 40rem;
+        line-height: 40rem;
+    }
+
+    #updates {
+        padding-top: 340rem;
+    }
+
+    .form__fields {
+        gap: 26rem;
+    }
+
+    #partners .section__title h2 {
+        font-size: 44rem;
+        line-height: 44rem;
+        max-width: 100%;
+    }
+
+    .partners__big-logo,
+    .partners__small-logo {
+        width: 80%;
+    }
+
+    .accordion__item {
+        padding: 48rem 46rem;
+    }
+
+    .accordion__item-title {
+        font-size: 25rem;
+        line-height: 30rem;
+    }
+
+    .accordion__item-arrow {
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+    }
+
+    .footer__copyright,
+    .footer__link {
+        font-size: 20rem;
+    }
+}
