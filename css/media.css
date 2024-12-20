@@ -315,9 +315,13 @@
         width: 100%;
     }
 
-    .partners__big-logo,
+    .partners__big-logo {
+        width: 80%;
+        height: auto;
+    }
+
     .partners__small-logo {
-        width: 40%;
+        width: 70%;
         height: auto;
     }
 
@@ -499,7 +503,10 @@
         max-width: 100%;
     }
 
-    .partners__big-logo,
+    .partners__big-logo {
+        width: 85%;
+    }
+
     .partners__small-logo {
         width: 80%;
     }
